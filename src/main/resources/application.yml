@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+spring:
+#  mail:
+#    host: smtp.163.com
+#    username: zhangyongjian12138@163.com
+#    password: \#ZYJ2632791
+#    port: 465
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.209.100:3306/quartz?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 123
+    type: com.alibaba.druid.pool.DruidDataSource
+    filters: stat,slf4j
+    quartz:
+      job-store-type: jdbc
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+

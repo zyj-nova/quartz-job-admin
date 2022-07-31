@@ -1,0 +1,66 @@
+{
+  "scheduler": {
+    "context": {},
+    "shutdown": false,
+    "schedulerName": "JobAdminApp",
+    "inStandbyMode": false,
+    "jobGroupNames": [
+      "group1"
+    ],
+    "metaData": {
+      "started": true,
+      "shutdown": false,
+      "version": "2.3.2",
+      "schedulerName": "JobAdminApp",
+      "inStandbyMode": false,
+      "schedulerInstanceId": "NON_CLUSTERED",
+      "threadPoolSize": 5,
+      "jobStoreClass": "org.springframework.scheduling.quartz.LocalDataSourceJobStore",
+      "threadPoolClass": "org.quartz.simpl.SimpleThreadPool",
+      "numberOfJobsExecuted": 1,
+      "jobStoreSupportsPersistence": true,
+      "jobStoreClustered": false,
+      "schedulerRemote": false,
+      "summary": "Quartz Scheduler (v2.3.2) 'JobAdminApp' with instanceId 'NON_CLUSTERED'\n  Scheduler class: 'org.quartz.impl.StdScheduler' - running locally.\n  Running since: Mon Jul 19 14:09:23 CST 2021\n  Not currently in standby mode.\n  Number of jobs executed: 1\n  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.\n  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.\n",
+      "schedulerClass": "org.quartz.impl.StdScheduler",
+      "runningSince": "2021-07-19T06:09:23.693+00:00"
+    },
+    "listenerManager": {
+      "schedulerListeners": [],
+      "jobListeners": [],
+      "triggerListeners": []
+    },
+    "started": true,
+    "calendarNames": [],
+    "currentlyExecutingJobs": [
+      {
+        "scheduler": {
+          "context": {},
+          "shutdown": false,
+          "schedulerName": "JobAdminApp",
+          "inStandbyMode": false,
+          "jobGroupNames": [
+            "group1"
+          ],
+          "metaData": {
+            "started": true,
+            "shutdown": false,
+            "version": "2.3.2",
+            "schedulerName": "JobAdminApp",
+            "inStandbyMode": false,
+            "schedulerInstanceId": "NON_CLUSTERED",
+            "threadPoolSize": 5,
+            "jobStoreClass": "org.springframework.scheduling.quartz.LocalDataSourceJobStore",
+            "threadPoolClass": "org.quartz.simpl.SimpleThreadPool",
+            "numberOfJobsExecuted": 1,
+            "jobStoreSupportsPersistence": true,
+            "jobStoreClustered": false,
+            "schedulerRemote": false,
+            "summary": "Quartz Scheduler(v2.3.2)"
+          }
+        }
+      }
+    ]
+  }
+}
+
